@@ -4,7 +4,7 @@ import { withStyles } from 'material-ui/styles';
 
 import Paper from 'material-ui/Paper';
 import Input, { InputLabel } from 'material-ui/Input';
-import { FormControl, FormHelperText } from 'material-ui/Form';
+import { FormControl } from 'material-ui/Form';
 import Button from 'material-ui/Button';
 
 const styles = theme => ({

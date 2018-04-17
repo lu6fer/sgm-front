@@ -15,7 +15,7 @@ const styles = theme => ({
     drawer: {
         height: '100%'
     },
-    anticon: {
+    icon: {
         fontSize: 24
     }
 });
@@ -36,8 +36,8 @@ const AppDrawer = ({ classes }) => {
                     <ListItemIcon>
                         <Icon
                             className={classNames(
-                                classes.anticon,
-                                "anticon-tank"
+                                classes.icon,
+                                "icon-tank"
                             )}
                             fontSize
                         />
@@ -48,8 +48,8 @@ const AppDrawer = ({ classes }) => {
                     <ListItemIcon>
                         <Icon
                             className={classNames(
-                                classes.anticon,
-                                "anticon-bcd"
+                                classes.icon,
+                                "icon-bcd"
                             )}
                             fontSize
                         />
@@ -60,8 +60,8 @@ const AppDrawer = ({ classes }) => {
                     <ListItemIcon>
                         <Icon
                             className={classNames(
-                                classes.anticon,
-                                "anticon-regulator"
+                                classes.icon,
+                                "icon-regulator"
                             )}
                             fontSize
                         />

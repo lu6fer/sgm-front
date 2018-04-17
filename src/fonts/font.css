@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'subalcatel';
+  src:  url('./subalcatel.eot?me7scz');
+  src:  url('./subalcatel.eot?me7scz#iefix') format('embedded-opentype'),
+    url('./subalcatel.ttf?me7scz') format('truetype'),
+    url('./subalcatel.woff?me7scz') format('woff'),
+    url('./subalcatel.svg?me7scz#subalcatel') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'subalcatel' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bcd:before {
+  content: "\e902";
+}
+.icon-regulator:before {
+  content: "\e901";
+}
+.icon-tank:before {
+  content: "\e900";
+}
